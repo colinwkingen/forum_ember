@@ -5,6 +5,16 @@
   <h2>Q: {{model.title}}</h2>
   <h3>Author: {{model.author}}</h3>
   <h4>{{model.detail}}</h4>
-  <!-- <h5>Asked On: {{model.date}}<h5> -->
 
 </div>
+
+<div>
+  {{new-answer question=model answer2="answer3"}}
+</div>
+
+<h2>Here's some people that answered:</h2>
+<ul>
+  {{#each model.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
+</ul>
