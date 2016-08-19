@@ -8,6 +8,8 @@ body {
   font-size: 2em;
   font-weight: bold;
   border-style: solid;
+  margin: 9px;
+  box-shadow: 7px 7px 5px #999;
 
 }
 .each_question a {
@@ -18,4 +20,8 @@ body {
 .each_question a:hover {
   color: white;
   background-color: black;
+}
+
+.question_detail {
+  height: 335px;
 }

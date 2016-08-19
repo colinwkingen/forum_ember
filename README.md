@@ -1,4 +1,8 @@
-# Forum-question
+# Ember Question Forum
+
+This is a basic question answer setup made with ember and google firebase.
+All questions and answer are stored in firbase, and can be added to and
+modified.
 
 * Questions should have the content of the question itself, an author and additional notes.
 * Answers should have the content of the answer and the author.

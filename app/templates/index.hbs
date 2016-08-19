@@ -1,6 +1,10 @@
-<ul>
-  {{#each model as |question|}}
-    {{question-tile question=question update="update"}}
-  {{/each}}
-</ul>
-{{new-question save2="save3"}}
+<div class="col-lg-9">
+  <ul>
+    {{#each model as |question|}}
+      {{question-tile question=question update="update"}}
+    {{/each}}
+  </ul>
+</div>
+<div class="col-lg-3"> 
+  {{new-question save2="save3"}}
+</div>

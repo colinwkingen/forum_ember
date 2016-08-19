@@ -1,20 +1,23 @@
 <h2>Here are the deets about this question.</h2>
 
-<div class="question_detail">
+<div class="question_detail col-lg-8 well">
 
   <h2>Q: {{model.title}}</h2>
   <h3>Author: {{model.author}}</h3>
+  <h3>Details:</h3>
   <h4>{{model.detail}}</h4>
 
 </div>
 
-<div>
+<div class="col-lg-4">
   {{new-answer question=model answer2="answer3"}}
 </div>
 
-<h2>Here's some people that answered:</h2>
-<ul>
-  {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer}}
-  {{/each}}
-</ul>
+<div class="col-lg-12">
+  <h2>Here's some people that answered:</h2>
+  <ul>
+    {{#each model.answers as |answer|}}
+      {{answer-tile answer=answer}}
+    {{/each}}
+  </ul>
+</div>
