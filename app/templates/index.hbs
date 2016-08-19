@@ -1,1 +1,7 @@
-{{outlet}}
+<h1>Quoreddit Overflow</h1>
+
+<ul>
+  {{#each model as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</ul>

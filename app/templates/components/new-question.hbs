@@ -1,0 +1,17 @@
+<h1>Ask your Thing.</h1>
+<form>
+  <div class="form-group">
+    <label for="title">Title</label>
+    {{input class="form-control" value=title id="title"}}
+  </div>
+  <div class="form-group">
+    <label for="author">Author</label>
+    {{input class="form-control" value=author id="author"}}
+  </div>
+  <div class="form-group">
+    <label for="title">Details</label>
+    {{input class="form-control" value=detail id="detail"}}
+  </div>
+  <button {{action 'save1'}}>Ask It!</button>
+</form>
+{{new-question save2="save3"}}
