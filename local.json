@@ -1,0 +1,28 @@
+{ "questions": [{
+    "title": "Bees are in my couch?",
+    "author": "Ted Cruz",
+    "detail": "They buzz and buzz. It hurts.",
+    "date": ""
+  }, {
+    "title": "My head is too big?",
+    "author": "Barack Obama",
+    "detail": "I think I have a head. It might be big.",
+    "date": ""
+
+  }, {
+    "title": "Why are hats?",
+    "author": "Hillary Clinton",
+    "detail": "Are hats? If so, why? Are hats for heads?",
+    "date": ""
+  }, {
+    "title": "Pizza is a vegetable?",
+    "author": "Donald Trump",
+    "detail": "I eat pizza and tacos and donuts in milk.",
+    "date": ""
+  }, {
+    "title": "Who likes goldfish?",
+    "author": "Bernie Sanders",
+    "detail": "Snacky snacky time.",
+    "date": ""
+  }]
+}
