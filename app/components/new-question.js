@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
+  currentSession: Ember.inject.service(),
   actions: {
     save1() {
       var params = {
@@ -11,6 +12,7 @@ export default Ember.Component.extend({
         serious: this.get('serious') ? this.get('serious') : false,
         answers: []
       };
+      this.get('currentSession').asked();
       this.sendAction('save2', params);
       this.set('title', '');
       this.set('author', '');
