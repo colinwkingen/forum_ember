@@ -11,6 +11,7 @@ export default Ember.Component.extend({
         title: this.get('title') ? this.get('title') : "",
         author: this.get('author') ? this.get('author') : "",
         detail: this.get('detail') ? this.get('detail') : ""
+        
       };
       this.set('updateQuestion', false);
       this.sendAction('update', question, params);
