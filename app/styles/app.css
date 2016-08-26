@@ -5,13 +5,23 @@ body {
 .each_question {
   color: black;
   list-style: none;
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: bold;
   border-style: solid;
   border-color: #777;
   margin: 9px;
   box-shadow: 5px 5px 3px #AAA;
 
+}
+
+.each_question {
+  color: black;
+  background-color: white;
+}
+
+.each_question:hover {
+  color: white;
+  background-color: black;
 }
 .each_question a {
   color: black;
@@ -23,6 +33,8 @@ body {
   background-color: black;
 }
 
+
+
 .question_detail {
   height: 335px;
 }
@@ -30,4 +42,10 @@ body {
 #session_stats {
   color: grey;
   margin: 15px;
+}
+
+.update_button {
+  margin-bottom: 17px;
+  margin-top: 17px;
+  margin-left: 8px;
 }
