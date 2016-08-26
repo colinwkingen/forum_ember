@@ -4,10 +4,10 @@ export default Ember.Service.extend({
   questions: 0,
   answers: 0,
 
-  answered() {
+  asked() {
     this.set('questions', this.get('questions') + 1);
   },
-  asked() {
+  answered() {
     this.set('answers', this.get('answers') + 1);
   }
 });

@@ -33,8 +33,6 @@ body {
   background-color: black;
 }
 
-
-
 .question_detail {
   height: 335px;
 }
@@ -48,4 +46,6 @@ body {
   margin-bottom: 17px;
   margin-top: 17px;
   margin-left: 8px;
+  color: white;
+  background-color: #111;
 }

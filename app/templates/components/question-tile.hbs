@@ -1,17 +1,16 @@
 
-<li class="each_question">
-  <div class="row">
-    {{#link-to 'question' question.id}}
-    <div class="col-md-2">
-      <h3>{{update-question question=question update="update"}}</h3>
-    </div>
 
-    <div class="col-md-10 questions">
-      <h3 class="question"><strong>Q:</strong> {{question.title}}<br> <strong>Asked By:</strong>{{question.author}}</h3>
-      <br>
-      {{questionInfo}}{{question-tags question}}
-
+{{#link-to 'question' question.id}}
+  <li class="each_question">
+    <div class="row">
+      <div class="col-md-2">
+        <h3>{{update-question question=question update="update"}}</h3>
+      </div>
+      <div class="col-md-10">
+        <h3 class="question"><strong>Q:</strong> {{question.title}}<br> <strong>Asked By:</strong>{{question.author}}</h3>
+        <br>
+        {{questionInfo}}{{question-tags question}}
+      </div>
     </div>
-    {{/link-to}}
-  </div>
-</li>
+  </li>
+{{/link-to}}
