@@ -5,11 +5,12 @@ body {
 .each_question {
   color: black;
   list-style: none;
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: bold;
   border-style: solid;
+  border-color: #555;
   margin: 9px;
-  box-shadow: 7px 7px 5px #999;
+  box-shadow: 5px 5px 3px #AAA;
 
 }
 .each_question a {

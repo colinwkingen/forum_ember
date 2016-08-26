@@ -1,6 +1,7 @@
   <li class="each_question">
+    {{question-tags question}}
   {{#link-to 'question' question.id}}
     || {{question.title}} -- {{question.author}} ||
   {{/link-to}}
-  <h2>{{update-question question=question update="update"}}{{questionInfo}}</h2>
+  <h3>{{update-question question=question update="update"}}{{questionInfo}}</h3>
   </li>
