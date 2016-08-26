@@ -8,7 +8,7 @@ body {
   font-size: 1.6em;
   font-weight: bold;
   border-style: solid;
-  border-color: #555;
+  border-color: #777;
   margin: 9px;
   box-shadow: 5px 5px 3px #AAA;
 
@@ -25,4 +25,9 @@ body {
 
 .question_detail {
   height: 335px;
+}
+
+#session_stats {
+  color: grey;
+  margin: 15px;
 }
