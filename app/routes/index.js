@@ -14,7 +14,7 @@ export default Ember.Route.extend({
         if (params[key]!==undefined) {
           question.set(key, params[key]);
         }
-      })
+      });
       question.save();
       this.transitionTo('index');
     }
