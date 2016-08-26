@@ -2,5 +2,5 @@
   {{#link-to 'question' question.id}}
   || {{question.title}} -- {{question.author}} ||
   {{/link-to}}
-  {{update-question question=question update="update"}}
+  <h2>{{update-question question=question update="update"}} - Info: {{questionInfo}}</h2>
 </li>
